@@ -16,7 +16,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: hyojae blog
+  title: KIM HYOJAE
   tagline: Developer
   date_format: "%b %-d, %Y"
   style: black
