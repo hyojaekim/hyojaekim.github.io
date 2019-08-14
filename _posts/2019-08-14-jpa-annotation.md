@@ -5,15 +5,14 @@ date: 2019-08-14 20:18:28 -0900
 categories: web
 ---
 
-# JPA Annotation
 ### 필드와 컬럼 매핑
 * **@Column**
 	컬럼을 매핑하고 제약 조건을 추가할 수 있다.
 	
 	| 속성 | 기능 | 기본값 |
-	|--|--|--|
-	| name | 컬럼 이름 지정 | 객체의 필드 이름 |
-	| nullable(DDL) | null 값을 허용할지 결정 | true |
+    |--|--|--|
+    | name | 컬럼 이름 지정 | 객체의 필드 이름 |
+    | nullable(DDL) | null 값을 허용할지 결정 | true |
 	| length(DDL) | 문자 길이 제약조건, Strig 타입만 사용 | 255 |
 	| columnDefinition(DDL) | DB 컬럼 정보를 직접 지정 | 자바 타입과 방언 정보를 사용해 적절한 컬럼 타입을 생성 |
 	| percision, scale(DDL) | BigDecimal 타입에서 사용한다.(BigInteger) persision은 소수점을 포함한 전체 자리 수, scale은 소수의 자릿수이다. 아주 큰 숫자나 정밀한 소수를 다룰때 사용 | percision = 19, scale = 2 |
