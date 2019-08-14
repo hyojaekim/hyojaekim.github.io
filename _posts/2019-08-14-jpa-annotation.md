@@ -30,11 +30,11 @@ categories: web
 * **@Enumerated**
 	
     자바의 **enum**을 매핑하기 위한 어노테이션
-	
+
     ```Java
         @Enumerated(EnumType.STRING)
         private User user;
-	```
+    ```
 	
 * **@Temporal**
 
@@ -55,6 +55,7 @@ categories: web
         @Temporal(TemporalType.TIMESTAMP)
         private Date timestamp;
 	```
+
 * **@Lob**
 
     DB에는 기본적으로 VARCHAR 타입을 사용한다.
@@ -65,6 +66,7 @@ categories: web
         @Lob
         private String description;
 	```
+
 * **@Transient**
     
     특정 필드를 **DB에 매핑하지 않는다.**
@@ -126,4 +128,4 @@ categories: web
             public String getFullName() {
                 return firstName + lastName;
             }
-        ```W
+        ```
