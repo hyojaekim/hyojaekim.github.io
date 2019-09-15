@@ -1,4 +1,5 @@
 title: HYOJAE
+description: Develop Study Blog
 
 url: https://github.com/hyojaekim
 baseurl: ""
@@ -7,8 +8,12 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
+# plugins: [jekyll-paginate]
+plugins:
+ - jekyll-paginate
+ - jekyll-archives
+ - jekyll-time-to-read
+paginate: 10
 
 navigation:
   - title: Home
