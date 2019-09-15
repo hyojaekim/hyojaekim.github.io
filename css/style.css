@@ -9,6 +9,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -386,6 +387,7 @@ A MORE MODERN SCALE
 http://typecast.com/blog/a-more-modern-scale-for-web-typography
 ***************/
 body {
+  font-family: "Nanum Gothic", serif;
   font-size: 1em;
   /* equivalent to 16px */
   line-height: 1.45;
