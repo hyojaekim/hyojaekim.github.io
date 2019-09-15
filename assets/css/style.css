@@ -41,7 +41,8 @@ abbr[title] {
 }
 b,strong {
 	font-weight:inherit;
-	font-weight:bolder
+	font-weight:bolder;
+	color: indianred;
 }
 code,kbd,samp {
 	font-family:monospace,monospace;
@@ -141,7 +142,7 @@ summary {
 	display:list-item
 }
 
-canvas 
+canvas
 	display:inline-block
 }
 [hidden],template {
@@ -215,12 +216,14 @@ body .intro {
 	}
 }
 blockquote {
+	text-align: center;
 	font-size:1.25em;
 	line-height:1.25;
 	padding:0
 }
 @media (min-width:43.75em) {
 	blockquote {
+		text-align: center;
 		font-size:1.5em;
 		line-height:1.45833333
 	}
@@ -414,7 +417,7 @@ th:last-child {
 	color:#fff
 }
 
-html 
+html
 	box-sizing:border-box
 }
 *,:after,:before {
@@ -570,6 +573,7 @@ dd {
 	margin-bottom:4rem
 }
 .post blockquote {
+	text-align: center;
 	clear:both;
 	margin:2.5em 0;
 	padding:0;
@@ -753,7 +757,7 @@ dd {
 	color:gray;
 	font-family:Open Sans,Helvetica,Arial,sans-serif;
     font-weight:300;
-    
+
     font-size:.8em
 }
 .posts li h3 {
@@ -909,7 +913,7 @@ dd {
 	}
 	#contact form {
         max-width:48%;
-        
+
         width:48%;
 
 		float:right;
