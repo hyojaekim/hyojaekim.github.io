@@ -18,7 +18,7 @@ $lightGray: #eee;
 }
 
 body {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Nanum Gothic', serif;
 	@include fluidType(16px, 19px);
 	line-height: 1.55em;
 	margin: 0;
