@@ -8,6 +8,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
   line-height: 1.15;
   /* 1 */
@@ -676,7 +677,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "PT Serif", Georgia, Times, serif;
+  font-family: "Nanum Gothic", Georgia, Times, serif;
   line-height: 1.75;
   font-size: 112.5%;
   color: #111;
