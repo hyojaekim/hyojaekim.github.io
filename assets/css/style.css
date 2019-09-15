@@ -140,7 +140,8 @@ details,menu {
 summary {
 	display:list-item
 }
-canvas {
+
+canvas 
 	display:inline-block
 }
 [hidden],template {
@@ -152,7 +153,8 @@ body .intro {
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
 	margin:.5rem 0 1.5rem;
-	font-family:Open Sans,Helvetica,Arial,sans-serif
+    /* font-family:Open Sans,Helvetica,Arial,sans-serif; */
+    font-family:'Nanum Gothic', serif;
 }
 .h1,h1 {
 	font-size:2em;
@@ -166,7 +168,8 @@ body .intro {
 }
 @media (min-width:56.25em) {
 	.h1,h1 {
-		font-size:3em;
+        /* font-size:3em; */
+		font-size:2.5em;
 		line-height:1.05
 	}
 }
@@ -410,16 +413,20 @@ th:last-child {
 .highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi {
 	color:#fff
 }
-html {
+
+html 
 	box-sizing:border-box
 }
 *,:after,:before {
 	box-sizing:inherit
 }
 body {
-	font-family: 'Nanum Gothic', serif;
-	line-height:1.75;
-	font-size:112.5%;
+    font-family: 'Nanum Gothic', serif;
+    /* font-family:PT Serif,Georgia,Times,serif; */
+
+    line-height:1.75;
+    /* font-size:112.5%; */
+	font-size:100%;
 	color:#111;
 	overflow-x:hidden;
 	margin:0
@@ -560,7 +567,7 @@ dd {
 .post .postTitle {
 	text-align:center;
 	margin-top:2rem;
-	margin-bottom:1rem
+	margin-bottom:4rem
 }
 .post blockquote {
 	clear:both;
@@ -739,20 +746,23 @@ dd {
 	text-decoration:none
 }
 .posts li a:hover {
-	text-decoration:underline
+    /* text-decoration:underline; */
+    text-decoration:none;
 }
 .posts li .date {
 	color:gray;
 	font-family:Open Sans,Helvetica,Arial,sans-serif;
-	font-weight:300;
-	font-size:.8em
+    font-weight:300;
+    
+    font-size:.8em
 }
 .posts li h3 {
 	margin:0 0 .5em
 }
 @media only screen and (min-width:800px) {
 	body {
-		font-size:125%
+        /* font-size:125%; */
+        font-size:100%;
 	}
 	.content {
 		padding-top:0;
@@ -776,7 +786,7 @@ dd {
 		max-width:880px;
 		margin-left:auto;
 		margin-right:auto;
-		padding:0
+		padding:0 20px;
 	}
 	#home .pageTitle,#home .pagination,#home .posts {
 		width:75%;
@@ -898,17 +908,21 @@ dd {
 		float:left
 	}
 	#contact form {
-		max-width:48%;
-		width:48%;
+        max-width:48%;
+        
+        width:48%;
+
 		float:right;
 		margin-right:0
 	}
 }
 @media only screen and (min-width:1200px) {
 	body {
-		font-size:137.5%
+        /* font-size:137.5%; */
+        font-size:110%;
 	}
 	.container {
-		max-width: 990px
+        /* max-width: 990px; */
+        max-width: 800px;
 	}
 }
