@@ -25,7 +25,7 @@ em.persist(member);
 
 * 영속성 컨텍스트와 전혀 관계가 없는 상태
 
-![new](/assets/image/persistence/new.png)
+![new](/assets/img/persistence/new.png)
 ```java
 Member  member = new  Member();
 member.setId("abc");
@@ -36,7 +36,7 @@ member.setUsername("홍길동");
 
 * 영속성 컨텍스트에 의해 괸리 되는 상태
 
-![managed](/assets/image/persistence/managed.png)
+![managed](/assets/img/persistence/managed.png)
 ```java
 em.persist(member);
 em.find();
@@ -69,7 +69,7 @@ em.remove(member);
 
 
 
-### 영속성 컨텍스트 특징**
+### 영속성 컨텍스트 특징
 
 * 영속성 컨텍스트 내부에 캐시를 가지고 있다. (**1차 캐시**)
 
