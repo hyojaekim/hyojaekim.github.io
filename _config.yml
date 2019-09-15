@@ -17,6 +17,8 @@ navigation:
     url: /about
   - title: Contact
     url: /contact
+  - title: Articles
+    url: /articles
 
 social:
   github: hyojaekim
