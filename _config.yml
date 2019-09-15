@@ -1,6 +1,6 @@
 title: hyojae blog
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://github.com/hyojaekim
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
