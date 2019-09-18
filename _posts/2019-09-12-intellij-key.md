@@ -2,9 +2,11 @@
 layout: post
 title: "[Intellij] - 인텔리제이 유용한 단축키"
 date: 2019-09-12 14:50:28 -0900
+description: IntelliJ를 사용하면서 유용한 단축키에 대해 소개합니다.
+categories: etc
 ---
 
-### 화면 이동
+<blockquote>화면 이동</blockquote>
 
 - **탭 이동**
 
@@ -49,8 +51,7 @@ date: 2019-09-12 14:50:28 -0900
   ```
 
 
-
-### 코드 이동
+<blockquote>코드 이동</blockquote>
 
 - **클래스/함수 구현부 이동** 
 
@@ -76,7 +77,7 @@ date: 2019-09-12 14:50:28 -0900
   F2 (ctrl + e 맵핑 추천)
   ```
 
-### 코드편집
+<blockquote>코드편집</blockquote>
 
 - **코드 복사/코드 잘라내기** 
 
@@ -151,8 +152,7 @@ date: 2019-09-12 14:50:28 -0900
   ```
 
   
-
-### 멀티커서
+<blockquote>멀티커서</blockquote>
 
 - **커서에 있는 단어 블록 설정 (누른 횟수 만큼 가능)**
 
@@ -175,8 +175,7 @@ date: 2019-09-12 14:50:28 -0900
 - ctrl + cmd + g option + shift + L click(왼쪽 클릭)
 
 
-
-### 코딩
+<blockquote>코딩</blockquote>
 
 - **파라미터를 모르는 경우** 
 
