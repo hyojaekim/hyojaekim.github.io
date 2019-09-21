@@ -20,7 +20,7 @@ categories: web
 | percision, scale(DDL) | BigDecimal 타입에서 사용한다.(BigInteger) persision은 소수점을 포함한 전체 자리 수, scale은 소수의 자릿수이다. 아주 큰 숫자나 정밀한 소수를 다룰때 사용 | percision = 19, scale = 2 |
 | unique(DDL) | 한 컬럼에 간단히 유니크 제약조건을 걸 수 있다. |  |
 
-`table, insertable, updatable은 거의 사용하지 않는다.`
+> table, insertable, updatable은 거의 사용하지 않는다.
 
 **name : Column의 이름을 설정한다.
 nullable : 비어있는 값을 허용할지 하지 않을지 설정할 수 있다.
@@ -30,7 +30,7 @@ length : 해당 Column의 길이를 설정할 수 있다.**
 	
 자바의 **enum**을 매핑하기 위한 어노테이션
 
-```Java
+```java
 @Enumerated(EnumType.STRING)
 private User user;
 ```
@@ -44,7 +44,7 @@ private User user;
 * TemporalType.TIME : 시간, DB time 타입과 매핑 (ex) 11:11:11
 * TemporalType.TIMESTAMP : 날짜와 시간, DB timestamp 타입과 매핑 (ex) 2019-07-28 11:11:11
 
-```Java
+```java
 @Temporal(TemporalType.DATE)
 private Date date;
 
@@ -61,7 +61,7 @@ DB에는 기본적으로 VARCHAR 타입을 사용한다.
 **필드의 길이 제한이 없이 설정하는 경우**에는 **CLOB 타입**으로 저장해야 한다.
 해당 어노테이션을 사용하면 **CLOB, BLOB 타입**을 매핑할 수 있다.
 
-```Java
+```java
 @Lob
 private String description;
 ```
@@ -81,7 +81,7 @@ JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
     - 필드에 직접 접근한다.
     - 필드 접근 제어자가 private이어도 접근이 가능하다.
 
-    ```Java
+    ```java
     @Entity
     @Access(AccessType.FIELD) //생략 가능
     public class Member {
@@ -109,7 +109,7 @@ JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
 
 * **필드와 프로퍼티** 접근 방식을 함께 사용이 가능하다.
 
-```Java
+```java
 @Entity
 public class Member {
 @Id
