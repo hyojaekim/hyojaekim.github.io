@@ -6,10 +6,10 @@ description: JPA 기본적인 Annotation에 대해 정리하였습니다.
 categories: web
 ---
 
-### 필드와 컬럼 매핑
+<blockquote>필드와 컬럼 매핑</blockquote>
 
-<blockquote>@Column</blockquote>
- 컬럼을 매핑하고 제약 조건을 추가할 수 있다.
+### @Column
+컬럼을 매핑하고 제약 조건을 추가할 수 있다.
 
 | 속성 | 기능 | 기본값 |
 |--|--|--|
@@ -26,7 +26,7 @@ categories: web
 nullable : 비어있는 값을 허용할지 하지 않을지 설정할 수 있다.
 length : 해당 Column의 길이를 설정할 수 있다.**
 	
-<blockquote>@Enumerated</blockquote>
+### @Enumerated
 	
 자바의 **enum**을 매핑하기 위한 어노테이션
 
@@ -35,7 +35,7 @@ length : 해당 Column의 길이를 설정할 수 있다.**
     private User user;
 ```
 
-<blockquote>@Temporal</blockquote>
+### @Temporal
 
 해당 어노테이션을 생략하면@Temporal(TemporalType.TIMESTAMP)와 같다.
 자바의 **날짜**를 매핑하기 위한 어노테이션
@@ -55,7 +55,7 @@ length : 해당 Column의 길이를 설정할 수 있다.**
     private Date timestamp;
 ```
 
-<blockquote>@Lob</blockquote>
+### @Lob
 
 DB에는 기본적으로 VARCHAR 타입을 사용한다.
 **필드의 길이 제한이 없이 설정하는 경우**에는 **CLOB 타입**으로 저장해야 한다.
@@ -66,15 +66,15 @@ DB에는 기본적으로 VARCHAR 타입을 사용한다.
     private String description;
 ```
 
-<blockquote>@Transient</blockquote>
+### @Transient
     
 특정 필드를 **DB에 매핑하지 않는다.**
 
 ---
 
-### 기타 매핑
+<blockquote>기타 매핑</blockquote>
 
-<blockquote>@Access</blockquote>
+### @Access
     
 JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
 @Access를 설정하지 않으면 @Id의 위치를 기준으로 접근한다.
