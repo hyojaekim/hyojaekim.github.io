@@ -31,8 +31,8 @@ length : 해당 Column의 길이를 설정할 수 있다.**
 자바의 **enum**을 매핑하기 위한 어노테이션
 
 ```Java
-    @Enumerated(EnumType.STRING)
-    private User user;
+@Enumerated(EnumType.STRING)
+private User user;
 ```
 
 ### @Temporal
@@ -45,14 +45,14 @@ length : 해당 Column의 길이를 설정할 수 있다.**
 * TemporalType.TIMESTAMP : 날짜와 시간, DB timestamp 타입과 매핑 (ex) 2019-07-28 11:11:11
 
 ```Java
-    @Temporal(TemporalType.DATE)
-    private Date date;
+@Temporal(TemporalType.DATE)
+private Date date;
 
-    @Temporal(TemporalType.TIME)
-    private Date time;
+@Temporal(TemporalType.TIME)
+private Date time;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date timestamp;
+@Temporal(TemporalType.TIMESTAMP)
+private Date timestamp;
 ```
 
 ### @Lob
@@ -62,8 +62,8 @@ DB에는 기본적으로 VARCHAR 타입을 사용한다.
 해당 어노테이션을 사용하면 **CLOB, BLOB 타입**을 매핑할 수 있다.
 
 ```Java
-    @Lob
-    private String description;
+@Lob
+private String description;
 ```
 
 ### @Transient
@@ -82,47 +82,47 @@ JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
     - 필드 접근 제어자가 private이어도 접근이 가능하다.
 
     ```Java
-        @Entity
-        @Access(AccessType.FIELD) //생략 가능
-        public class Member {
-            @Id
-            private String id;
-            ...
+    @Entity
+    @Access(AccessType.FIELD) //생략 가능
+    public class Member {
+        @Id
+        private String id;
+        ...
     ```
 
 * **AccessType.PROPERTY : 프로퍼티 접근**
     - 접근자(getter)를 사용한다.
 
     ```java
-        @Entity
-        @Access(AccessType.PROPERTY) //생략 가능
-        public class Member {
-            private String id;
-            ...
-            
-            @Id
-            public String getId() {
-                return id;
-            }
-            ...
+    @Entity
+    @Access(AccessType.PROPERTY) //생략 가능
+    public class Member {
+        private String id;
+        ...
+        
+        @Id
+        public String getId() {
+            return id;
+        }
+        ...
     ```
 
 * **필드와 프로퍼티** 접근 방식을 함께 사용이 가능하다.
 
 ```Java
-    @Entity
-    public class Member {
-    @Id
-    private String id;
-    
-    @Transient
-    private String firstName;
+@Entity
+public class Member {
+@Id
+private String id;
 
-    @Transient
-    private String lastName;
+@Transient
+private String firstName;
 
-    @Access(AccessType.PROPERTY)
-    public String getFullName() {
-        return firstName + lastName;
-    }
+@Transient
+private String lastName;
+
+@Access(AccessType.PROPERTY)
+public String getFullName() {
+    return firstName + lastName;
+}
 ```
