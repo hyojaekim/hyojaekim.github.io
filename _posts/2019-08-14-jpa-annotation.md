@@ -70,8 +70,6 @@ DB에는 기본적으로 VARCHAR 타입을 사용한다.
     
 특정 필드를 **DB에 매핑하지 않는다.**
 
----
-
 <blockquote>기타 매핑</blockquote>
 
 ### @Access
@@ -79,7 +77,7 @@ DB에는 기본적으로 VARCHAR 타입을 사용한다.
 JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
 @Access를 설정하지 않으면 @Id의 위치를 기준으로 접근한다.
 
-* AccessType.FIELD : 필드 접근
+* **AccessType.FIELD : 필드 접근**
     - 필드에 직접 접근한다.
     - 필드 접근 제어자가 private이어도 접근이 가능하다.
 
@@ -92,7 +90,7 @@ JPA가 엔티티 데이터에 **접근하는 방식**을 지정한다.
             ...
     ```
 
-* AccessType.PROPERTY : 프로퍼티 접근
+* **AccessType.PROPERTY : 프로퍼티 접근**
     - 접근자(getter)를 사용한다.
 
     ```java
