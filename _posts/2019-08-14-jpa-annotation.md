@@ -20,7 +20,7 @@ categories: web
 | percision, scale(DDL) | BigDecimal 타입에서 사용한다.(BigInteger) persision은 소수점을 포함한 전체 자리 수, scale은 소수의 자릿수이다. 아주 큰 숫자나 정밀한 소수를 다룰때 사용 | percision = 19, scale = 2 |
 | unique(DDL) | 한 컬럼에 간단히 유니크 제약조건을 걸 수 있다. |  |
 
-` table, insertable, updatable은 거의 사용하지 않는다.  `
+`table, insertable, updatable은 거의 사용하지 않는다.`
 
 **name : Column의 이름을 설정한다.
 nullable : 비어있는 값을 허용할지 하지 않을지 설정할 수 있다.
