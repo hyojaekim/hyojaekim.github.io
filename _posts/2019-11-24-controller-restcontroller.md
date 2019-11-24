@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[Spring] - @Controller, @ResponseBody,@RestController"
+title: "[Spring] - @Controller, @ResponseBody, @RestController"
 date: 2019-11-24 14:50:28 -0900
-description: @Controller, @ResponseBody, @RestController 어노테이션의 관계에 대해 정리하였습니다.
-categories: spring
+description: 스프링 @Controller, @ResponseBody, @RestController 어노테이션 관계에 대해 정리하였습니다.
+categories: Spring
 ---
 
-![controller-1](/assets/img/controller/controller-main.png)
+![controller-main](/assets/img/controller/controller-main.png)
 
 스프링에서 컨트롤러에 대한 어노테이션은 `@Controller`와 `@RestController`가 있다. 두 어노테이션의 차이점은 전통적인 스프링 MVC 컨트롤러에서 HTTP **Response Body 생성 방식**에 따라 구분된다.
 
