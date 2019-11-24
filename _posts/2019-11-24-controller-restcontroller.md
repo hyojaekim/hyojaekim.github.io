@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring] - @Controller, @ResponseBody, @RestController"
+title: "[Spring] - @Controller, @ResponseBody,@RestController"
 date: 2019-11-24 14:50:28 -0900
 description: @Controller, @ResponseBody, @RestController 어노테이션의 관계에 대해 정리하였습니다.
 categories: spring
