@@ -2,8 +2,8 @@
 layout: post
 title: "[우아한테크코스] - 프로젝트 1주 차"
 date: 2019-12-04 14:50:28 -0900
-description: 우아한테크코스 레벨 4 1주 차 프로젝트에 대해 정리하려고 합니다.
-categories: etc
+description: 우아한테크코스 레벨 4 1주차 프로젝트에 대해 정리하였습니다.
+categories: 우아한테크코스
 ---
 
 > 프로젝트 시작
