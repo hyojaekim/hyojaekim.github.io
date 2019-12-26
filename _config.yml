@@ -13,6 +13,7 @@ plugins:
  - jekyll-paginate
  - jekyll-archives
  - jekyll-time-to-read
+ - jekyll-feed
 paginate: 10
 
 navigation:
