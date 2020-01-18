@@ -2,7 +2,7 @@
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
-url: "https://hyojaekim.github.io # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://localhost:3000" # the base hostname & protocol for your site 
 
 # User settings
 username: Lorem Ipsum
