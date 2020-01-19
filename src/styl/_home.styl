@@ -14,7 +14,7 @@
             stack()
         .day
             mainFont(800)
-            color main
+            color #444
             font-size rem(80px)
             line-height 1.6
             +below(cut)
@@ -29,16 +29,18 @@
         a
             text-decoration none
         .date
-            color main
+            color #333
         .post-title
-            color black
+            color headerText
             font-size rem(32px)
             +below(cut)
                 text-align center
+            &:hover
+                color hover;
         .description
-            color texts
+            color #6a6c6e
             mainFont(300)
             font-size rem(20px)
             a
-                color main
+                color hover
                 text-decoration underline

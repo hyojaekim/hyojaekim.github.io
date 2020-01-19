@@ -9,19 +9,16 @@ size(width = 30, height = 30)
         padding rem(15px)
         margin rem(2px)
         border-radius 50%
-        border rem(2px) solid sec
+        border rem(2px) solid headerText
         line-height 0
-        transition all .7s
+        transition all .3s
         .icon
-            fill sec
+            fill headerText
             size(18,18)
             +above(cut)
                 size()
         &:hover
-            background sec
-            .icon
-                fill main
-
+            background-color whitesmoke
 .down
     position absolute
     bottom 50px
@@ -31,5 +28,5 @@ size(width = 30, height = 30)
     .icon
         align(both)
         size(100,100)
-        fill sec
+        fill headerText
         animation pulse 1.3s infinite

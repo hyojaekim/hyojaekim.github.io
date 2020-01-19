@@ -20,9 +20,12 @@
             color colorcode
     a
         mainFont(300)
-        color main
+        color #0562dc
         text-decoration none
-        border-bottom 2px solid main
+        border-bottom 2px solid #0562dc
+        &:hover
+            color #ea4335
+            border-bottom-color #ea4335
     iframe
         margin-top rem(30px)
         width 100%
@@ -81,7 +84,7 @@
     a
         text-decoration none
         &:hover svg
-            fill main
+            fill hover
 
 
 table
@@ -96,6 +99,7 @@ table
     mainFont(300)
     font-size rem(36px)
     margin-top rem(60px)
+    margin-bottom rem(15px)
     center(rem(800px))
     +below(cut)
         font-size rem(28px)
@@ -109,13 +113,14 @@ table
         padding 0 rem(20px)
     a
         display block
-        border-bottom 1px solid darken(lightGray,10%)
-        padding rem(10px) 0
+        border none
+        padding 0
         text-decoration none
-        transition all .5s
+        color grey
+        transition all .3s
         &:hover
-            color hover
-            border-bottom 1px solid hover
+            color headerText
+            font-size 1.3rem
     .entry-date
         float right
         +below(cut)

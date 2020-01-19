@@ -1,18 +1,18 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Kim Hyojae
+description: Kim Hyojae
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/hyojaekim" # the base hostname & protocol for your site
+url: "https://hyojaekim.github.io" # the base hostname & protocol for your site
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: HYOJAE
+user_description: Kim Hyojae
+user_title: Backend Developer
+email: hyojaedev@gmail.com
+github_username:  hyojaekim
+twitter_username:
+gplus_username:
+disqus_username:
 
 # Build settings
 markdown: kramdown
