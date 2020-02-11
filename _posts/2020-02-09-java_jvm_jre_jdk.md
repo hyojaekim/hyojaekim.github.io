@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "[작성중] Java, JVM, JDK, JRE의 차이"
-date: 2020-02-09 20:21:35
+date: 2020-02-11 20:21:35
 image: '/assets/img/'
-description: 'Java, JVM, JDK, JRE 각각 구분하여 정리하려고 합니다.'
+description: 'Java, JVM, JDK, JRE 각각 구분하여 정리하려고 합니다.'
 tags:
 - java
 categories:
